@@ -54,8 +54,8 @@ cp ~/.tmux/.tmux.conf.local ./
 cd 
 git clone https://github.com/wimterdom/my-tmux.git
 cd my-tmux
-cp .tmux.conf ~/.tmux/
-cp .tmux.conf.local ~/.tmux/
+cp .tmux.conf ~/
+cp .tmux.conf.local ~/
 ```
 (2)或更改~/.tmux.conf.local 
 - clone  gpakosz/tmux 直接修改~/.tmux.conf.local
@@ -76,7 +76,7 @@ tmux_conf_battery_bar_symbol_empty='·'
 tmux_conf_copy_to_os_clipboard=true
 set -g mouse on
 ```
-- 修改~/.tmux/.tmux.conf
+- 修改~/.tmux.conf
 以下為增加部分
 ```bash=
 source "/usr/local/lib/python3.8/dist-packages/powerline/bindings/tmux/powerline.conf"
