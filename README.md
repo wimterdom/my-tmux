@@ -49,7 +49,7 @@ cp ~/.tmux/.tmux.conf.local ./
 ```
 
 ### 4. install my-tmux
-(1)
+(1)直接clone 此repo
 ```bash=
 cd 
 git clone https://github.com/wimterdom/my-tmux.git
