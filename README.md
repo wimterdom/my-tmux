@@ -6,13 +6,27 @@
   ```bash=
   sudo apt install tmux
   ```
+### 2. install powerline
+  -powerline
+  ```bash=
+  sudo apt install powerline -y
+  ```
+  並在.bashrc 貼上
+  ```bash=
+  if [ -f `which powerline-daemon` ]; then
+      powerline-daemon -q
+      POWERLINE_BASH_CONTINUATION=1
+      POWERLINE_BASH_SELECT=1
+      . /usr/share/powerline/bindings/bash/powerline.sh
+  fi
+  ```
   
   - powerline-status 2.7
   ```bash=
   sudo pip install powerline-status
   ```
   
-  or 2.8.1
+  - powerline 2.8.1
   
   ```bash=
   sudo pip install git+https://github.com/powerline/powerline.git@develop
