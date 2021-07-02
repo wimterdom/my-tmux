@@ -13,7 +13,7 @@
 
 
 # -- windows & pane creation ---------------------------------------------------
-
+source "/usr/local/lib/python3.8/dist-packages/powerline/bindings/tmux/powerline.conf"
 # new window retains current path, possible values are:
 #   - true
 #   - false (default)
