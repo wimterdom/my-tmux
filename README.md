@@ -7,7 +7,7 @@
   sudo apt install tmux
   ```
 ### 2. install powerline
-  -powerline
+  - powerline
   ```bash=
   sudo apt install powerline -y
   ```
