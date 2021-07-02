@@ -8,9 +8,10 @@
   ```
   
   - powerline-status 2.7
-  '''bash=
+  ```bash=
   sudo pip install powerline-status
   ```
+  
   or 2.8.1
   
   ```bash=
